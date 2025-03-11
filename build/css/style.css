@@ -373,7 +373,7 @@ button {
 }
 @media (width <= 459px) {
   .gallery__image {
-    border-radius: none;
+    border-radius: 0rem;
   }
 }
 .gallery__image:target {
