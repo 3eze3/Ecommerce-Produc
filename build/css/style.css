@@ -83,22 +83,22 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 @font-face {
   font-family: "KumbhSans-Bold";
   font-weight: 700;
-  src: local("KumbhSans-Bold"), url("../../../build/assets/fonts/KumbhSans-Bold.woff2") format(woff2), url("../../../build/assets/fonts/KumbhSans-Bold.woff") format(woff), url("../../../build/assets/fonts/KumbhSans-Bold.ttf") format(truetype);
+  src: local("KumbhSans-Bold"), url("../assets/fonts/KumbhSans-Bold.woff2") format(woff2), url("../assets/fonts/KumbhSans-Bold.woff") format(woff), url("../assets/fonts/KumbhSans-Bold.ttf") format(truetype);
 }
 @font-face {
   font-family: "KumbhSans-SemiBold";
   font-weight: 600;
-  src: local("KumbhSans-SemiBold"), url("../../../build/assets/fonts/KumbhSans-SemiBold.woff2") format(woff2), url("../../../build/assets/fonts/KumbhSans-SemiBold.woff") format(woff), url("../../../build/assets/fonts/KumbhSans-SemiBold.ttf") format(truetype);
+  src: local("KumbhSans-SemiBold"), url("../assets/fonts/KumbhSans-SemiBold.woff2") format(woff2), url("../assets/fonts/KumbhSans-SemiBold.woff") format(woff), url("../assets/fonts/KumbhSans-SemiBold.ttf") format(truetype);
 }
 @font-face {
   font-family: "KumbhSans-Medium";
   font-weight: 500;
-  src: local("KumbhSans-Medium"), url("../../../build/assets/fonts/KumbhSans-Medium.woff2") format(woff2), url("../../../build/assets/fonts/KumbhSans-Medium.woff") format(woff), url("../../../build/assets/fonts/KumbhSans-Medium.ttf") format(truetype);
+  src: local("KumbhSans-Medium"), url("../assets/fonts/KumbhSans-Medium.woff2") format(woff2), url("../assets/fonts/KumbhSans-Medium.woff") format(woff), url("../assets/fonts/KumbhSans-Medium.ttf") format(truetype);
 }
 @font-face {
   font-family: "KumbhSans-Light";
   font-weight: 300;
-  src: local("KumbhSans-Light"), url("../../../build/assets/fonts/KumbhSans-Light.woff2") format(woff2), url("../../../build/assets/fonts/KumbhSans-Light.woff") format(woff), url("../../../build/assets/fonts/KumbhSans-Light.ttf") format(truetype);
+  src: local("KumbhSans-Light"), url("..//fonts/KumbhSans-Light.woff2") format(woff2), url("../fonts/KumbhSans-Light.woff") format(woff), url("../fonts/KumbhSans-Light.ttf") format(truetype);
 }
 body {
   padding-block: 1.9rem;
