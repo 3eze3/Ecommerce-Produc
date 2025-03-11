@@ -45,7 +45,7 @@
 
 	&__image {
 		@include mx.mobile(459px) {
-			border-radius: none;
+			border-radius: 0rem;
 		}
 
 		border-radius: 0.75rem;
