@@ -11,7 +11,7 @@
 		<title>E-commerce product page</title>
 
 		<link rel="stylesheet" href="./css/style.css" />
-		<script src="./js/index.mjs" defer type="module"></script>
+		<script src="./js/index.mjs" type="module" defer></script>
 	</head>
 	<body>
 		<header class="header">
@@ -79,9 +79,10 @@
 						alt="cart the products" />
 				</button>
 				<article class="cart__resume">
-					<header class="cart__header">
+					<h3 class="sr-only">Resume cart</h3>
+					<div class="cart__header">
 						<span class="cart__title">Cart</span>
-					</header>
+					</div>
 					<span class="cart__empty">Your cart is empty.</span>
 					<div class="cart__container">
 						<ul class="cart__products">
@@ -112,9 +113,9 @@
 								</button>
 							</li>
 						</ul>
-						<button class="cart__checkout-btn">
+						<button class="cart__checkout-btn" aria-label="Add to cart">
 							<span aria-hidden="true" class="cart__checkout-cover"></span>
-							<span class="cart__checkout-label" aria-label="Add to cart">
+							<span class="cart__checkout-label">
 								<span class="cart__checkout-label cart__checkout-label-1">
 									Checkout
 								</span>
@@ -138,7 +139,7 @@
 		<main class="main">
 			<section class="gallery">
 				<h2 class="sr-only">Images of sneakers</h2>
-				<ul class="gallery__images">
+				<ul class="gallery__images" tabindex="0">
 					<li class="gallery__item">
 						<img
 							alt="Product sneakers Limited image"
@@ -206,10 +207,10 @@
 			</section>
 			<article class="product">
 				<section class="product__information">
-					<header class="product__header">
+					<div class="product__header">
 						<h1 class="product__company">Sneaker Company</h1>
 						<h2 class="product__title">Fall Limited Edition Sneakers</h2>
-					</header>
+					</div>
 					<p class="product__description">
 						These low-profile sneakers are your perfect casual wear companion.
 						Featuring a durable rubber outer sole, they’ll withstand everything
@@ -241,8 +242,8 @@
 								class="form__input"
 								type="number"
 								value="0"
-								disabled
-								id="value" />
+								id="value"
+								disabled />
 						</label>
 						<button
 							class="form__btn"
@@ -256,14 +257,14 @@
 					</div>
 
 					<button
-						aria-label="Add product to the cart button"
+						aria-label="Add product to the cart"
 						class="form__add-product">
 						<span aria-hidden="true" class="form__add-cover"></span>
 						<img
 							class="form__icon--cart form__icon"
 							src="./assets/images/icons/icon-cart.svg"
 							alt="cart icon" />
-						<span class="form__add-label" aria-label="Add to cart">
+						<span class="form__add-label">
 							<span class="form__add-label form__add-label-1">Add to cart</span>
 							<span
 								class="form__add-label form__add-label-2"
@@ -274,7 +275,7 @@
 					</button>
 				</form>
 			</article>
-			<dialog class="modal" open>
+			<dialog class="modal">
 				<section class="gallery modal__container">
 					<button class="modal__close" aria-label="Close modal">&times;</button>
 					<h2 class="sr-only">Images of sneakers</h2>
