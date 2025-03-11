@@ -864,10 +864,8 @@ button {
   width: 0.8rem;
   filter: brightness(100%);
 }
-.form__label {
-  width: 40px;
-}
 .form__input {
+  width: 40px;
   font-family: "KumbhSans-Bold";
   text-align: center;
   width: 100%;
