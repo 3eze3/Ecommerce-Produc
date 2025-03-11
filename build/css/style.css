@@ -98,7 +98,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 @font-face {
   font-family: "KumbhSans-Light";
   font-weight: 300;
-  src: local("KumbhSans-Light"), url("..//fonts/KumbhSans-Light.woff2") format(woff2), url("../fonts/KumbhSans-Light.woff") format(woff), url("../fonts/KumbhSans-Light.ttf") format(truetype);
+  src: local("KumbhSans-Light"), url("../assets/fonts/KumbhSans-Light.woff2") format(woff2), url("../assets/fonts/KumbhSans-Light.woff") format(woff), url("../assets/fonts/KumbhSans-Light.ttf") format(truetype);
 }
 body {
   padding-block: 1.9rem;
